@@ -66,22 +66,12 @@ As an 'a' tag:
 {{/facebook-share}}
 ```
 
-#### Facepile
-
-Current URL:
-
-`{{facebook-facepile}}`
-
-Specified URL:
-
-`{{facebook-facepile url='http://plyfe.github.io/ember-social'}}`
-
 ##### Themes
 
 `light`
 `dark`
 
-`{{facebook-facepile fb-colorscheme='dark'}}`
+`{{facebook-share fb-colorscheme='dark'}}`
 
 ### Twitter
 
@@ -236,7 +226,6 @@ For more information on using ember-cli, visit [http://www.ember-cli.com/](http:
 ### TODO
 
 * Implement click/share tracking for `{{facebook-like}}`
-* Implement click/share tracking for `{{facebook-facepile}}`
 
 ### Contributors
 
